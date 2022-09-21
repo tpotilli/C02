@@ -6,11 +6,9 @@
 /*   By: tpotilli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/21 08:35:44 by tpotilli          #+#    #+#             */
-/*   Updated: 2022/09/21 09:33:45 by tpotilli         ###   ########.fr       */
+/*   Updated: 2022/09/21 13:41:53 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {
@@ -24,12 +22,4 @@ char	*ft_strupcase(char *str)
 		i++;
 	}
 	return (str);
-}
-int main()
-{
-	char tab[] = {"bonbon"};
-	printf("%s",ft_strupcase(tab));
-	printf("\n");
-	char bat[] = {"BonBON"};
-	printf("%s",ft_strupcase(tab));
 }
